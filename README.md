@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# `fb-login-clone` Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![clone-fb-logo](https://raw.githubusercontent.com/atifulla/fb-login/baba-test/screenshot.JPG)
 
 ## Available Scripts
 
