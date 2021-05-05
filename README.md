@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## `previous-version`
+## `current-version`
 
 ![clone-fb-logo](https://raw.githubusercontent.com/atifulla/fb-login/baba-test/sc.JPG)
 
