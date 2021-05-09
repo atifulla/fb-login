@@ -14,51 +14,42 @@ function App() {
           </div>
         </div>
 
-        <div className="w-1/2 flex items-center">
-          <div class="flex flex-col flex items-center ">
-            <div>
-              <div class="flex flex-col w-full bg-white rounded shadow-lg h-full p-6 m-40 bg-gray-400 ">
-                <div>
-                  <div class="field-group mb-4 md:w-full">
-                    <input
-                      class="field border-blue-50"
-                      type="email"
-                      name="email"
-                      id="email"
-                    />
-                  </div>
+        <div className="w-1/2 min-h-screen flex flex-col items-center justify-center">
+          <div className="shadow-lg rounded-md w-7/12 mb-5 bg-white">
+            <div className="flex flex-col mx-5 space-y-4">
+              <input
+                type="text"
+                placeholder="Email address or phone number"
+                class="focus:outline-none focus:ring focus:border-blue-500 border p-3 rounded-md mt-5"
+              />
+              <input
+                type="Password"
+                placeholder="Password"
+                class="focus:outline-none focus:ring focus:border-blue-500 border p-3 rounded-md"
+              />
+              <a
+                href=""
+                className="text-blue-600 p-2 rounded-md text-center text-2xl font-semibold border border-blue-600 transition duration-500 ease-in-out bg-white hover:bg-blue-700 hover:text-white"
+              >
+                Log in
+              </a>
+              <div class="divide-y divide-fuchsia-300">
+                <div className="cursor-pointer text-blue-600 text-center hover:underline mb-3">
+                  Forgotten password?
                 </div>
-                <div>
-                  <div class="field-group mb-6 md:w-full">
-                    <input
-                      class="field"
-                      type="password"
-                      name="password"
-                      id="password"
-                    />
-                  </div>
-                </div>
-                <div>
-                  <button class="btn btn-teal mx-auto" type="submit">
-                    Login
-                  </button>
-                </div>
-                <div>
-                  <a class="link link-grey w-full text-center" href="/login">
-                    Forgotten password?
-                  </a>
-                </div>
-                <div>
-                  <div>
-                    <button class="btn btn-teal mx-auto" type="submit">
-                      Login
-                    </button>
-                  </div>
+                <div></div>
+                <div className="cursor-pointer text-white w-1/2 p-3 ml-24 mb-5 rounded-md text-center text-1xl font-semibold mt-4 border transition duration-500 ease-in-out bg-green-500 hover:bg-green-700">
+                  Create New Account
                 </div>
               </div>
             </div>
-            <p>Create a Page for a celebrity, band or business.</p>
           </div>
+          <p className="text-black">
+            <span className="font-semibold text-gray-900 cursor-pointer transition duration-500 ease-in-out transform hover:underline hover:-translate-y-1 hover:scale-110">
+              Create a Page
+            </span>{" "}
+            for a celebrity, band or business.
+          </p>
         </div>
       </div>
     </div>
